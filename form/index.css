@@ -1,0 +1,32 @@
+body{
+    background: url(./img/photo-1618588507085-c79565432917.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    text-align: center;
+    color: aqua;
+}
+.big{
+    text-align: center;
+  
+    display: flex;
+    justify-content: center;
+
+}
+form{
+    /* border: 2px solid red; */
+    width: 400px;
+background: url(./img/photo-1471879832106-c7ab9e0cee23.jpg);
+padding-top: 10px;
+transition: 1s;
+}
+ 
+form:hover{
+    border-radius: 30px;
+}
+button{
+    background: blueviolet;
+}
