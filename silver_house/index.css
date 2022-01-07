@@ -1,0 +1,109 @@
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+.menu ul li{
+    padding: 40px;
+    list-style: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li a{
+    color: #bab9b9;
+    text-decoration: none;
+    transition: 1s;
+}
+.menu ul li a:hover {
+    color: #4581b7;
+}
+.header{
+    text-align: center;
+}
+/*-------------------section start-----------*/
+
+.section{
+    width: 1110px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.section .left{
+    width: 710px;
+ background: #f0f0f0;
+}
+.section .left h3{
+    padding-top: 35px;
+    padding-left: 40px;
+    color:  #4581b7;
+
+}
+.section .left .POX{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 95px;
+    padding-bottom: 65px;
+    color:  #9d9d9d;
+}
+.section .right{
+    width: 350px;
+    background: #f0f0f0;
+}
+.section .right .contact{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #4581b7
+}
+.section .right .pox2{
+    color: #9d9d9d;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.section .right .tel{
+    margin-left: 40px;
+    color:  #9d9d9d;
+
+}
+.section .right .email{
+    margin-left: 40px;
+    margin-top: 30px;
+    color:  #9d9d9d;
+
+}
+.footer{
+    margin-left: 40px;
+    width: 1110px;
+    height: 150px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+}
+.footer .box{
+/* border: 2px solid green; */
+height: 150px;
+width: 400px;
+
+}
+.footer .box img{
+    width: 100px;
+    margin: 13px 0 20px 20px;
+}
+.footer .box2{
+    /* border: 2px solid blue; */
+    width: 300px;
+    height: 150px;
+   
+}
+.footer .box2 .info{
+    margin: 30px 0 5px 40px;
+    color:  #9d9d9d;
+    }
+    .footer .box2 .tel2{
+        margin-left: 170px;
+        color: #808080;
+    }
