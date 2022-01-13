@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: url(./img/victor-garcia-1263465-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1440px;
+    height: 780px;
+  
+
+}
+.title .tile{
+  padding-top: 20px;
+  padding-left: 160px;
+  color: white;
+  font-size: 20px;
+}
+.title .tile span{
+  color: #b78601;
+}
+.title ul{
+ display: flex ;
+ justify-content:end;
+ align-items: center;
+ padding-top: 0px;
+ padding-right: 160px;
+ 
+}
+.title ul li{
+    list-style: none;
+    padding-left: 30px;
+}
+.title ul li a{
+  color: white;
+}
+.title ul li a:hover{
+  color: #b78601;
+}
+.title h2{
+  padding-top: 200px;
+  padding-left: 170px;
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+}
+.title h3{
+  padding-top: 55px;
+  padding-left: 170px;
+  font-size: 55px;
+  color: #b78601;
+}
+.title p{
+  padding-top: 40px;
+  padding-left: 170px;
+  font-size: 25px;
+  color: #c1c1c1;
+}
+.title button{
+margin-top: 40px;
+margin-left: 170px;
+padding: 10px 40px;
+font-size: 22px;
+font-family: "Roboto";
+background: none;
+color: #b3b3b4;
+border-radius: 30px;
+border-color: #b3b3b4;
+}
+
+
+/*------------------section-------------------*/
+ .section{
+  height: 1180px;
+  width: 1440px;
+}
+.section .p1{
+  margin-top: 150px;
+  margin-left: 165px;
+}
